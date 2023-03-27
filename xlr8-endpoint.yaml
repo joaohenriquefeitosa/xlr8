@@ -1,0 +1,93 @@
+_type: export
+__export_format: 4
+__export_date: 2023-03-27T01:54:30.735Z
+__export_source: insomnia.desktop.app:v2022.1.0
+resources:
+  - _id: req_bbc1cb0662654d2f83d6e44967fb7b0b
+    parentId: wrk_01b8d6a4041648508f00901174ebd462
+    modified: 1679880565626
+    created: 1679876882371
+    url: http://localhost:8082/api/get-hotels?latitude=51.50000000&longitude=0.10000000
+    name: get-hotels
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers:
+      - id: pair_ff1c429282b8426b86c6c40beac4f5c1
+        name: Accept
+        value: application/json
+        description: ""
+      - id: pair_31104018b3d947d6ab6460453f60138d
+        name: Content-Type
+        value: application/json
+        description: ""
+    authentication: {}
+    metaSortKey: -1679876882371
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_01b8d6a4041648508f00901174ebd462
+    parentId: null
+    modified: 1679876865312
+    created: 1679876865312
+    name: xlr8
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: env_1e2e443330d113db8e3c9dcc15ebff25e72db9ac
+    parentId: wrk_01b8d6a4041648508f00901174ebd462
+    modified: 1679876865322
+    created: 1679876865322
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1679876865322
+    _type: environment
+  - _id: jar_1e2e443330d113db8e3c9dcc15ebff25e72db9ac
+    parentId: wrk_01b8d6a4041648508f00901174ebd462
+    modified: 1679877511167
+    created: 1679876865326
+    name: Default Jar
+    cookies:
+      - key: XSRF-TOKEN
+        value: eyJpdiI6IkV4SjY4K3NUQXlVdC82L2dCMi9sWVE9PSIsInZhbHVlIjoiMUxEcWdTWllRL1Q4QzNjQmFCL3QxVG8yVDRuaVRxbjVES0QyT0NMc3gwalZYeGp5R2hBN2lQT0xZUE9ramxQSTBkTXQ2bk1HNXZHOFdHTU9LY3kxRDkzdFVwR2pHYUdiOW9YdlNGeENESHJRelRhSG9rVXhJSWN6S0QrVWk3VWIiLCJtYWMiOiI5ZDM2M2RkMDkzMzEyNjQ4MWZkM2I5YWQ5NjZlOTljZGY5Y2JhY2ZmYWQ1ODgwNGIyYTdhNDhiMjBiOWJkYWRhIiwidGFnIjoiIn0%3D
+        expires: 2023-03-27T02:38:31.000Z
+        maxAge: 7200
+        domain: localhost
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2023-03-27T00:38:31.156Z
+        lastAccessed: 2023-03-27T00:38:31.156Z
+        id: "668312064111038"
+      - key: laravel_session
+        value: eyJpdiI6InQvblRQaFU5L09GQkRaZ2ExeWk3K3c9PSIsInZhbHVlIjoiZTVOeWpNSHJialg1aVg4RjFQZzFDbHlXSzQrbFlaUXFPb3A5d2grS05vTFVudmd3UUsweG5GNXpIeU5NZTJYQVNHWlNvODFMbWRCY1BtbW1UbFI5RUdkR2thZE4wVE9rMXoxWmUyWFMyUFhvZUVFU2lNTXVCdFZ6RFh5dHBUWEsiLCJtYWMiOiIzZmEzY2VhZTlkMTE4NWIwNWMyMDcyNzQ2YWZiZjUzNDRkNjllMDBlNzA1YWYzOThjOWJjMTdmM2I4MjJkN2UzIiwidGFnIjoiIn0%3D
+        expires: 2023-03-27T02:38:31.000Z
+        maxAge: 7200
+        domain: localhost
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2023-03-27T00:38:31.157Z
+        lastAccessed: 2023-03-27T00:38:31.157Z
+        id: "5322950052639415"
+    _type: cookie_jar
+  - _id: spc_45b629d75acc4f8891442cff42bf9879
+    parentId: wrk_01b8d6a4041648508f00901174ebd462
+    modified: 1679876865314
+    created: 1679876865314
+    fileName: xlr8
+    contents: ""
+    contentType: yaml
+    _type: api_spec
